@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tryScoreKeeper.css">
+</head>
+<body>
+    <div id="main">
+        <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGUlMjB0ZW5uaXN8ZW58MHx8MHx8fDA%3D" id="image">
+        <h3 id="head3">Ping Pong Score Keeper</h3>
+        <div id="scorecard">
+            <h1 id="score"><span id="s1">0</span> to <span id="s2">0</span></h1>
+            <span id="note">Use the buttons below to keep score</span>
+            <div id="imp">
+            <label for="matchPoint">Playing To</label>
+            <select id="matchPoint">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+            </div>
+        </div>
+        <div id="btn">
+            <!--
+            <input type="button" id="bt1" value="+1 Player one"></input>
+            <input type="button" id="bt2" value="+1 Player Two"></input>
+            <input type="button" id="bt3" value="Reset"></input>
+            both ways of defining the button are coorect for this problem-->
+            <button id="bt1">+1 Player 1 </button>
+            <button id="bt2">+1 Player 2</button>
+            <button id="bt3">Reset</button>
+        </div>
+    </div>
+    <script src="tryScoreKeeper.js"></script>
+</body>
+</html>
